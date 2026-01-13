@@ -272,8 +272,8 @@ export default function Home() {
                     <CardDescription>Using your preferred package manager</CardDescription>
                   </CardHeader>
                   <CardContent className="space-y-4">
-                    <CodeBlock code="pnpm add @merifly/ui" language="bash" />
-                    <CodeBlock code="npm install @merifly/ui" language="bash" />
+                    <CodeBlock code="pnpm add @dferndz/merifly-ui" language="bash" />
+                    <CodeBlock code="npm install @dferndz/merifly-ui" language="bash" />
                   </CardContent>
                 </Card>
 
@@ -283,7 +283,7 @@ export default function Home() {
                   </CardHeader>
                   <CardContent>
                     <CodeBlock
-                      code={`import { Button, Card, Input } from "@merifly/ui"
+                      code={`import { Button, Card, Input } from "@dferndz/merifly-ui"
 
 export function MyComponent() {
   return (
